@@ -1,0 +1,38 @@
+body{
+    font-family: Arial;
+    background: gray;
+    perspective: 3000px;
+}
+
+.wrapper{
+    width: 960px;
+    float: none;
+    margin: 100px auto;
+    background: #fff;
+    padding: 20px;
+    border: solid 5px black;
+}
+form {
+    margin: 0 auto;
+    width: 280px;
+}
+h1 {
+    text-align: center;
+}
+
+input{
+    font-size: 20px;
+    width: 280px;
+}
+
+#response {
+    width: 280px;
+    background: #ddd;
+    border: solid 2px gray;
+    height:240px;
+    margin-top: 40px;
+    overflow: auto;
+    transform: rotate(10deg);
+    padding: 10px;
+    font-size:16px;
+}
